@@ -11,11 +11,6 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   //API
-  authDomain: "nexevent-377be.firebaseapp.com",
-  projectId: "nexevent-377be",
-  storageBucket: "nexevent-377be.firebasestorage.app",
-  messagingSenderId: "405124353639",
-  appId: "1:405124353639:web:4ac36af4ff8ee9b6f70ec2"
 };
 
 export const firebaseApp = initializeApp(firebaseConfig);
